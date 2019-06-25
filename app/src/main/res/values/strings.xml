@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LegoMinifigures</string>
+    <string name="lego_minifiguras">Lego Minifiguras</string>
+    <string name="cat_logo">Catálogo</string>
+    <string name="serie1_cazador">Cazador de la tribu</string>
+    <string name="serie1_animadora">Animadora</string>
+    <string name="serie1_cavernicola">Hombre de las cavernas</string>
+    <string name="serie1_payaso">Payaso de circo</string>
+    <string name="serie1_zombie">Zombie</string>
+    <string name="serie1_skater">Skater</string>
+    <string name="serie1_robot">Robot</string>
+    <string name="serie1_maniqui">Maniqui de pruebas</string>
+    <string name="serie1_mago">Mago</string>
+    <string name="serie1_luchador">Super Luchador</string>
+    <string name="serie1_enfermera">Enfermera</string>
+    <string name="serie1_ninja">Ninja</string>
+    <string name="serie1_bosque">Hombre del bosque</string>
+    <string name="serie1_espacio">Hombre del espacio</string>
+    <string name="serie1_buceador">Buceador</string>
+    <string name="serie1_cowboy">Cowboy</string>
+    <string name="adelante">ADELANTE!</string>
+    <string name="gracias_por_usar_nuestra_app_con_esta_aplicacion_podras_tener_un_catalogo_de_todas_las_colecciones_de_mninifiguras_existentes">Gracias por usar nuestra app. Con esta aplicacion podras tener un catalogo de todas las colecciones de mninifiguras existentes.</string>
+    <string name="colecciones">COLECCIONES</string>
+    <string name="completadas_1_d_2_d">Completadas %1$d / %2$d</string>
+    <string name="serie_1_1_d_2_d">Serie 1 - %1$d / %2$d</string>
+    <string name="serie_2_1_d_2_d">Serie 2 - %1$d / %2$d</string>
+    <string name="serie_3_1_d_2_d">Serie 3 - %1$d / %2$d</string>
+    <string name="serie_4_1_d_2_d">Serie 4 - %1$d / %2$d</string>
+</resources>
