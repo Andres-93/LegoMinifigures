@@ -16,11 +16,13 @@ import java.util.ArrayList;
 public class ColeccionesActivity extends AppCompatActivity {
 
     public static final int SERIE1_TOTAL = 16;
+    public static final int SERIE2_TOTAL = 16;
     public static final int CANTIDAD_TOTAL = 30;
     TextView total;
     FigurasSource fs;
     ArrayList<Figura> listaCompleta;
     Button btnS1;
+    Button btnS2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class ColeccionesActivity extends AppCompatActivity {
 
         fs = new FigurasSource(this);
         btnS1 = findViewById(R.id.btnSerie1);
+        btnS2 = findViewById(R.id.btnSerie2);
 
         listaCompleta = fs.consultarTodos();
 
@@ -48,6 +51,7 @@ public class ColeccionesActivity extends AppCompatActivity {
     private void contarColecciones() {
 
         int s1 = 0;
+        int s2 = 0;
         int scompletas = 0;
         for (int i = 0; i< listaCompleta.size();i++){
 
@@ -58,6 +62,12 @@ public class ColeccionesActivity extends AppCompatActivity {
                     }
                     break;
 
+                case "Serie2":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s2++;
+                    }
+                    break;
+
             }
 
         }
@@ -65,5 +75,6 @@ public class ColeccionesActivity extends AppCompatActivity {
         total.setText(String.format(getString(R.string.completadas_1_d_2_d),scompletas,CANTIDAD_TOTAL));
 
         btnS1.setText(String.format(getString(R.string.serie_1_1_d_2_d),s1,16));
+        btnS2.setText(String.format(getString(R.string.serie_2_1_d_2_d),s2,16));
     }
 }

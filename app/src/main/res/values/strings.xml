@@ -26,4 +26,21 @@
     <string name="serie_2_1_d_2_d">Serie 2 - %1$d / %2$d</string>
     <string name="serie_3_1_d_2_d">Serie 3 - %1$d / %2$d</string>
     <string name="serie_4_1_d_2_d">Serie 4 - %1$d / %2$d</string>
+    <string name="serie2_espartano">Guerrero espartano</string>
+    <string name="serie2_socorrista">Socorrista</string>
+    <string name="serie2_bruja">Bruja</string>
+    <string name="serie2_estrellapop">Estrella del pop</string>
+    <string name="serie2_levantamiento">Musculoso</string>
+    <string name="serie2_circo">Ringmaster</string>
+    <string name="serie2_explorador">Explorador</string>
+    <string name="serie2_karate">Maestro de karate</string>
+    <string name="serie2_surfero">Surfero</string>
+    <string name="serie2_faraon">Faraon</string>
+    <string name="serie2_vampiro">Vampiro</string>
+    <string name="serie2_poli">Policia de trafico</string>
+    <string name="serie2_mimo">Mimo</string>
+    <string name="serie2_esquiador">Esquiador</string>
+    <string name="serie2_disco">Chico disco</string>
+    <string name="serie2_mex">Mexicano</string>
+
 </resources>

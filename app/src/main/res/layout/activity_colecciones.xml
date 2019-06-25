@@ -81,6 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/botoncircle"
+                    android:onClick="verColeccion"
                     android:text="@string/serie_2_1_d_2_d"
                     android:textSize="12sp" />
             </LinearLayout>

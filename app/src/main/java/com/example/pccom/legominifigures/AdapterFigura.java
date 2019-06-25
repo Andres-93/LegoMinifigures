@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -45,6 +46,7 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
         ImageView imgFigura;
         TextView txtnombreFig;
         TextView txtSerieFig;
+        LinearLayout fondo;
 
 
         public HolderFigura(View itemView) {
@@ -52,6 +54,7 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
             imgFigura = itemView.findViewById(R.id.imgFigura);
             txtnombreFig = itemView.findViewById(R.id.nombreFigura);
             txtSerieFig = itemView.findViewById(R.id.serieFigura);
+            fondo = itemView.findViewById(R.id.fondoFigura);
 
         }
     }
@@ -73,6 +76,11 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
 
         rellenarImagen(listaFiguras.get(position).getSerie(),listaFiguras.get(position).getUrlImg(),holder);
 
+        if(listaFiguras.get(position).getEnPosesion() == 0){
+            holder.fondo.setBackgroundColor(context.getResources().getColor(R.color.rojo));
+        }else{
+            holder.fondo.setBackgroundColor(context.getResources().getColor(R.color.verde));
+        }
 
     }
 
@@ -99,8 +107,29 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
                     case "skater":  Glide.with(context).load(R.drawable.skater).into(holder.imgFigura);break;
                     case "zombie":  Glide.with(context).load(R.drawable.zombie).into(holder.imgFigura);break;
                 }
+                break;
 
 
+            case "Serie2":
+                switch (imagen){
+                    case "bruja":  Glide.with(context).load(R.drawable.bruja).into(holder.imgFigura);break;
+                    case "circo":  Glide.with(context).load(R.drawable.circo).into(holder.imgFigura);break;
+                    case "disco":  Glide.with(context).load(R.drawable.disco).into(holder.imgFigura);break;
+                    case "espartano":  Glide.with(context).load(R.drawable.espartano).into(holder.imgFigura);break;
+                    case "esquiador":  Glide.with(context).load(R.drawable.esquiador).into(holder.imgFigura);break;
+                    case "estrella":  Glide.with(context).load(R.drawable.estrella).into(holder.imgFigura);break;
+                    case "explorador":  Glide.with(context).load(R.drawable.explorador).into(holder.imgFigura);break;
+                    case "faraon":  Glide.with(context).load(R.drawable.faraon).into(holder.imgFigura);break;
+                    case "karate":  Glide.with(context).load(R.drawable.karate).into(holder.imgFigura);break;
+                    case "levantador":  Glide.with(context).load(R.drawable.levantador).into(holder.imgFigura);break;
+                    case "mexicano":  Glide.with(context).load(R.drawable.mexicano).into(holder.imgFigura);break;
+                    case "mimo":  Glide.with(context).load(R.drawable.mimo).into(holder.imgFigura);break;
+                    case "policia":  Glide.with(context).load(R.drawable.policia).into(holder.imgFigura);break;
+                    case "socorrista":  Glide.with(context).load(R.drawable.socorrista).into(holder.imgFigura);break;
+                    case "surfero":  Glide.with(context).load(R.drawable.surfero).into(holder.imgFigura);break;
+                    case "vampiro":  Glide.with(context).load(R.drawable.vampiro).into(holder.imgFigura);break;
+                }
+                break;
 
 
 

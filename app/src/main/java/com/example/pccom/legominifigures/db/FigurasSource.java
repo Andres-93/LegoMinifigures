@@ -87,7 +87,7 @@ public class FigurasSource {
         if(todos.isEmpty()) {
 
             ArrayList<Figura> cargaInicial = new ArrayList<>();
-
+            //Serie1
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_cazador),"cazador", 1,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_animadora),"animadora", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_cavernicola),"caver", 0,"Serie1", 2010,"accesorios"));
@@ -105,6 +105,23 @@ public class FigurasSource {
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_buceador),"buceador", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_cowboy),"cowboy", 0,"Serie1", 2010,"accesorios"));
 
+            //Serie2
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_espartano),"espartano", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_bruja),"bruja", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_circo),"circo", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_disco),"disco", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_esquiador),"esquiador", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_estrellapop),"estrella", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_explorador),"explorador", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_faraon),"faraon", 1,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_karate),"karate", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_levantamiento),"levantador", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_mex),"mexicano", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_mimo),"mimo", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_poli),"policia", 1,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_socorrista),"socorrista", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_surfero),"surfero", 0,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_vampiro),"vampiro", 0,"Serie2", 2010,"accesorios"));
 
 
             SQLiteDatabase db = openReadable();

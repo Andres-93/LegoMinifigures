@@ -27,7 +27,7 @@ public class DetalleColeccion extends AppCompatActivity {
 
         imgGeneral = findViewById(R.id.imgFondoSerieGeneral);
 
-        imgGeneral.setImageDrawable(getDrawable(R.drawable.serie1general));
+        imgGeneral.setImageDrawable(getDrawable(R.drawable.serie2_generl));
 
         listadoSerie = (ArrayList<Figura>) getIntent().getSerializableExtra("CLAVE_COLECT");
 
