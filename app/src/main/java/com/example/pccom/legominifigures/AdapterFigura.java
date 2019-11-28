@@ -35,6 +35,11 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
         return listaFiguras.size();
     }
 
+    public void cambioLista(ArrayList<Figura> listaFigurasNew){
+        listaFiguras = listaFigurasNew;
+
+    }
+
     @Override
     public void onClick(View view) {
         if (listener != null) {
@@ -76,6 +81,8 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
 
         rellenarImagen(listaFiguras.get(position).getSerie(),listaFiguras.get(position).getUrlImg(),holder);
 
+
+
         if(listaFiguras.get(position).getEnPosesion() == 0){
             holder.fondo.setBackgroundColor(context.getResources().getColor(R.color.rojo));
         }else{
@@ -83,6 +90,8 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
         }
 
     }
+
+
 
     private void rellenarImagen(String serie,String imagen,HolderFigura holder) {
 

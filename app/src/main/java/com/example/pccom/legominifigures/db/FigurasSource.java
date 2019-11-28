@@ -79,6 +79,26 @@ public class FigurasSource {
 
         return lista;
     }
+    public int cambioEstado(long id,int estado){
+        int resultado = 0;
+
+        ContentValues cv = new ContentValues();
+
+        SQLiteDatabase db = openWriteable();
+
+
+        if(estado == 0){
+            cv.put("enPosesion", 1);
+        }else{
+            cv.put("enPosesion", 0);
+        }
+
+        db.update(FigurasContract.FigurasEntry.TABLE_NAME, cv,FigurasContract.FigurasEntry.COLUMN_ID + " = " + id, null);
+
+
+        db.close();
+        return resultado;
+    }
 
     public ArrayList<Figura> consultarPorSerie(String serie){
         ArrayList<Figura>  lista = new ArrayList<>();

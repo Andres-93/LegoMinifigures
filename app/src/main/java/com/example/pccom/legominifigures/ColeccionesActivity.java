@@ -159,6 +159,8 @@ public class ColeccionesActivity extends AppCompatActivity {
         btnS3.setText(String.format(getString(R.string.serie_3_1_d_2_d),s3,SERIE3_TOTAL));
         btnS4.setText(String.format(getString(R.string.serie_4_1_d_2_d),s4,SERIE4_TOTAL));
         btnS5.setText(String.format(getString(R.string.serie_5_1_d_2_d),s5,SERIE5_TOTAL));
-        btnS6.setText(String.format(getString(R.string.serie_6_1_d_2_d),s5,SERIE6_TOTAL));
+        btnS6.setText(String.format(getString(R.string.serie_6_1_d_2_d),s6,SERIE6_TOTAL));
     }
+
+
 }

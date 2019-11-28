@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.example.pccom.legominifigures.data.Figura;
+import com.example.pccom.legominifigures.db.FigurasSource;
 
 import java.util.ArrayList;
 
@@ -20,6 +22,7 @@ public class DetalleColeccion extends AppCompatActivity {
     LinearLayoutManager miLayoutManager;
     ArrayList<Figura> listadoSerie;
     String serieEle;
+    FigurasSource fs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +30,7 @@ public class DetalleColeccion extends AppCompatActivity {
         setContentView(R.layout.activity_detalle_coleccion);
 
         imgGeneral = findViewById(R.id.imgFondoSerieGeneral);
-
+        fs = new FigurasSource(this);
 
 
         listadoSerie = (ArrayList<Figura>) getIntent().getSerializableExtra("CLAVE_COLECT");
@@ -45,7 +48,23 @@ public class DetalleColeccion extends AppCompatActivity {
         recicler.setItemAnimator(new DefaultItemAnimator());
 
 
+
         imagenGlobal(serieEle);
+
+        adapter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Figura fig =listadoSerie.get(recicler.getChildAdapterPosition(v));
+
+                fs.cambioEstado(fig.getId(),fig.getEnPosesion());
+
+                listadoSerie = fs.consultarPorSerie(serieEle);
+
+                adapter.cambioLista(listadoSerie);
+                adapter.notifyDataSetChanged();
+
+            }
+        });
 
     }
 
@@ -56,6 +75,8 @@ public class DetalleColeccion extends AppCompatActivity {
             case "Serie2":imgGeneral.setImageDrawable(getDrawable(R.drawable.serie2_generl));break;
             case "Serie3":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie3));break;
             case "Serie4":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie4));break;
+            case "Serie5":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie5));break;
+            case "Serie6":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie6));break;
 
         }
 
