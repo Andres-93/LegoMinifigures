@@ -19,6 +19,7 @@ public class DetalleColeccion extends AppCompatActivity {
     RecyclerView recicler;
     LinearLayoutManager miLayoutManager;
     ArrayList<Figura> listadoSerie;
+    String serieEle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,20 +28,41 @@ public class DetalleColeccion extends AppCompatActivity {
 
         imgGeneral = findViewById(R.id.imgFondoSerieGeneral);
 
-        imgGeneral.setImageDrawable(getDrawable(R.drawable.serie2_generl));
+
 
         listadoSerie = (ArrayList<Figura>) getIntent().getSerializableExtra("CLAVE_COLECT");
+        serieEle = getIntent().getStringExtra("CLAVE_SERIE");
+
 
         recicler = findViewById(R.id.reciclerColect);
         recicler.setHasFixedSize(true);
 
         miLayoutManager = new LinearLayoutManager(this);
-       adapter = new AdapterFigura(listadoSerie, this);
+        adapter = new AdapterFigura(listadoSerie, this);
 
         recicler.setAdapter(adapter);
         recicler.setLayoutManager(miLayoutManager);
         recicler.setItemAnimator(new DefaultItemAnimator());
 
 
+        imagenGlobal(serieEle);
+
     }
+
+    private void imagenGlobal(String serieEle) {
+
+        switch (serieEle){
+            case "Serie1":imgGeneral.setImageDrawable(getDrawable(R.drawable.serie1general));break;
+            case "Serie2":imgGeneral.setImageDrawable(getDrawable(R.drawable.serie2_generl));break;
+            case "Serie3":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie3));
+
+        }
+
+
+
+
+    }
+
+
+
 }

@@ -42,5 +42,21 @@
     <string name="serie2_esquiador">Esquiador</string>
     <string name="serie2_disco">Chico disco</string>
     <string name="serie2_mex">Mexicano</string>
+    <string name="serie3_alien">Alient Espacial</string>
+    <string name="serie3_baseball">Jugador de baseball</string>
+    <string name="serie3_indio">Jefe de tribu</string>
+    <string name="serie3_elfo">Elfo</string>
+    <string name="serie3_gorila">Gorila</string>
+    <string name="serie3_hula">Bailarina</string>
+    <string name="serie3_momia">Momia</string>
+    <string name="serie3_pesca">Pescador</string>
+    <string name="serie3_piloto">Piloto</string>
+    <string name="serie3_racer">Corredor</string>
+    <string name="serie3_rapero">Rapero</string>
+    <string name="serie3_samurai">Samurai</string>
+    <string name="serie3_snow">Snowboarder</string>
+    <string name="serie3_sumo">Luchador de sumo</string>
+    <string name="serie3_tenis">Jugador de tenis</string>
+    <string name="serie3_villano">Villano espacial</string>
 
 </resources>

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class FigurasSQLiteHelper extends SQLiteOpenHelper {
 
     static final String DATABASE_NAME = "FigurasDB";
-    static final int DATABASE_VERSION = 1;
+    static final int DATABASE_VERSION = 2;
 
     static final String CREATE_TABLE_ALIMENTOS = "CREATE TABLE " + FigurasContract.FigurasEntry.TABLE_NAME +"( "+
             FigurasContract.FigurasEntry.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT ,"+
@@ -40,6 +40,10 @@ public class FigurasSQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+        db.execSQL("DROP TABLE IF EXISTS " +
+                FigurasContract.FigurasEntry.TABLE_NAME);
+        onCreate(db);
     }
+
+
 }

@@ -80,6 +80,49 @@ public class FigurasSource {
         return lista;
     }
 
+    public ArrayList<Figura> consultarPorSerie(String serie){
+        ArrayList<Figura>  lista = new ArrayList<>();
+
+        SQLiteDatabase database = openReadable();
+
+        String select = "SELECT *" + " FROM " +
+                FigurasContract.FigurasEntry.TABLE_NAME + " WHERE " + FigurasContract.FigurasEntry.COLUMN_SERIE+ " = ?";
+
+        String[] args = {serie};
+
+        Cursor cursor = database.rawQuery(select,args);
+
+
+        int id;
+        String nombre;
+        String url;
+        int estado;
+        String serieF;
+        int anio;
+        String accesorios;
+
+        if(cursor.moveToFirst()){
+            do{
+
+                id = cursor.getInt(cursor.getColumnIndex(FigurasContract.FigurasEntry.COLUMN_ID));
+                nombre = cursor.getString(cursor.getColumnIndex( FigurasContract.FigurasEntry.COLUMN_NAME));
+                url = cursor.getString(cursor.getColumnIndex(FigurasContract.FigurasEntry.COLUMN_URL));
+                estado = cursor.getInt(cursor.getColumnIndex( FigurasContract.FigurasEntry.COLUMN_ESTADO));
+                serieF = cursor.getString(cursor.getColumnIndex(FigurasContract.FigurasEntry.COLUMN_SERIE));
+                anio = cursor.getInt(cursor.getColumnIndex(FigurasContract.FigurasEntry.COLUMN_ANIO));
+                accesorios = cursor.getString(cursor.getColumnIndex(FigurasContract.FigurasEntry.COLUMN_ACCESORIOS));
+                lista.add(new Figura(id,nombre,url,estado,serieF,anio,accesorios));
+
+            }while(cursor.moveToNext());
+        }
+
+        cursor.close();
+        database.close();
+
+        return lista;
+    }
+
+
     public void llenoInicial(Context cont){
 
         ArrayList<Figura> todos = this.consultarTodos();
@@ -88,19 +131,19 @@ public class FigurasSource {
 
             ArrayList<Figura> cargaInicial = new ArrayList<>();
             //Serie1
-            cargaInicial.add(new Figura(cont.getString(R.string.serie1_cazador),"cazador", 1,"Serie1", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie1_cazador),"cazador", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_animadora),"animadora", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_cavernicola),"caver", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_payaso),"payaso", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_zombie),"zombie", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_skater),"skater", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_robot),"robot", 0,"Serie1", 2010,"accesorios"));
-            cargaInicial.add(new Figura(cont.getString(R.string.serie1_maniqui),"maniqui", 1,"Serie1", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie1_maniqui),"maniqui", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_mago),"mago", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_luchador),"luchador", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_enfermera),"enfermera", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_ninja),"ninja", 0,"Serie1", 2010,"accesorios"));
-            cargaInicial.add(new Figura(cont.getString(R.string.serie1_espacio),"espacio", 1,"Serie1", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie1_espacio),"espacio", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_bosque),"bosqui", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_buceador),"buceador", 0,"Serie1", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie1_cowboy),"cowboy", 0,"Serie1", 2010,"accesorios"));
@@ -113,15 +156,36 @@ public class FigurasSource {
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_esquiador),"esquiador", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_estrellapop),"estrella", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_explorador),"explorador", 0,"Serie2", 2010,"accesorios"));
-            cargaInicial.add(new Figura(cont.getString(R.string.serie2_faraon),"faraon", 1,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_faraon),"faraon", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_karate),"karate", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_levantamiento),"levantador", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_mex),"mexicano", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_mimo),"mimo", 0,"Serie2", 2010,"accesorios"));
-            cargaInicial.add(new Figura(cont.getString(R.string.serie2_poli),"policia", 1,"Serie2", 2010,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie2_poli),"policia", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_socorrista),"socorrista", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_surfero),"surfero", 0,"Serie2", 2010,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie2_vampiro),"vampiro", 0,"Serie2", 2010,"accesorios"));
+
+
+            //Serie3
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_alien),"alien", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_baseball),"baseball", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_indio),"indio", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_elfo),"elfo", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_gorila),"gorila", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_hula),"hula", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_momia),"momia", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_pesca),"pesca", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_piloto),"piloto", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_racer),"racer", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_rapero),"rapero", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_samurai),"samurai", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_snow),"snow", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_sumo),"sumo", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_tenis),"tenis", 0,"Serie3", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie3_villano),"villano", 0,"Serie3", 2011,"accesorios"));
+
+
 
 
             SQLiteDatabase db = openReadable();

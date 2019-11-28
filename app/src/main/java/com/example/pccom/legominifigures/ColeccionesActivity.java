@@ -17,12 +17,14 @@ public class ColeccionesActivity extends AppCompatActivity {
 
     public static final int SERIE1_TOTAL = 16;
     public static final int SERIE2_TOTAL = 16;
+    public static final int SERIE3_TOTAL = 16;
     public static final int CANTIDAD_TOTAL = 30;
     TextView total;
     FigurasSource fs;
     ArrayList<Figura> listaCompleta;
     Button btnS1;
     Button btnS2;
+    Button btnS3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +33,27 @@ public class ColeccionesActivity extends AppCompatActivity {
 
         fs = new FigurasSource(this);
         btnS1 = findViewById(R.id.btnSerie1);
+
+        btnS1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie1");
+            }
+        });
         btnS2 = findViewById(R.id.btnSerie2);
+        btnS2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie2");
+            }
+        });
+        btnS3 = findViewById(R.id.btnSerie3);
+        btnS3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie3");
+            }
+        });
 
         listaCompleta = fs.consultarTodos();
 
@@ -41,10 +63,15 @@ public class ColeccionesActivity extends AppCompatActivity {
         contarColecciones();
 
     }
-    public void verColeccion(View v){
+    public void verColeccion(String numSerie){
+
+        ArrayList<Figura> listaFiltrada = new ArrayList<>();
+        listaFiltrada = fs.consultarPorSerie(numSerie);
+
 
         Intent i = new Intent(this, DetalleColeccion.class);
-        i.putExtra("CLAVE_COLECT", listaCompleta);
+        i.putExtra("CLAVE_SERIE",numSerie);
+        i.putExtra("CLAVE_COLECT", listaFiltrada);
         startActivity(i);
     }
 
@@ -52,6 +79,7 @@ public class ColeccionesActivity extends AppCompatActivity {
 
         int s1 = 0;
         int s2 = 0;
+        int s3 = 0;
         int scompletas = 0;
         for (int i = 0; i< listaCompleta.size();i++){
 
@@ -67,6 +95,11 @@ public class ColeccionesActivity extends AppCompatActivity {
                         s2++;
                     }
                     break;
+                case "Serie3":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s3++;
+                    }
+                    break;
 
             }
 
@@ -74,7 +107,8 @@ public class ColeccionesActivity extends AppCompatActivity {
 
         total.setText(String.format(getString(R.string.completadas_1_d_2_d),scompletas,CANTIDAD_TOTAL));
 
-        btnS1.setText(String.format(getString(R.string.serie_1_1_d_2_d),s1,16));
-        btnS2.setText(String.format(getString(R.string.serie_2_1_d_2_d),s2,16));
+        btnS1.setText(String.format(getString(R.string.serie_1_1_d_2_d),s1,SERIE1_TOTAL));
+        btnS2.setText(String.format(getString(R.string.serie_2_1_d_2_d),s2,SERIE2_TOTAL));
+        btnS3.setText(String.format(getString(R.string.serie_3_1_d_2_d),s3,SERIE3_TOTAL));
     }
 }

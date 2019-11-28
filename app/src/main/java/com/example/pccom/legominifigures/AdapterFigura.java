@@ -131,6 +131,26 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
                 }
                 break;
 
+            case "Serie3":
+                switch (imagen){
+                    case "alien":  Glide.with(context).load(R.drawable.alien).into(holder.imgFigura);break;
+                    case "baseball":  Glide.with(context).load(R.drawable.baseball).into(holder.imgFigura);break;
+                    case "indio":  Glide.with(context).load(R.drawable.chief).into(holder.imgFigura);break;
+                    case "elfo":  Glide.with(context).load(R.drawable.elfo).into(holder.imgFigura);break;
+                    case "gorila":  Glide.with(context).load(R.drawable.gorila).into(holder.imgFigura);break;
+                    case "hula":  Glide.with(context).load(R.drawable.hula).into(holder.imgFigura);break;
+                    case "momia":  Glide.with(context).load(R.drawable.momia).into(holder.imgFigura);break;
+                    case "pesca":  Glide.with(context).load(R.drawable.pesca).into(holder.imgFigura);break;
+                    case "piloto":  Glide.with(context).load(R.drawable.piloto).into(holder.imgFigura);break;
+                    case "racer":  Glide.with(context).load(R.drawable.racer).into(holder.imgFigura);break;
+                    case "rapero":  Glide.with(context).load(R.drawable.rapero).into(holder.imgFigura);break;
+                    case "samurai":  Glide.with(context).load(R.drawable.samurai).into(holder.imgFigura);break;
+                    case "snow":  Glide.with(context).load(R.drawable.snow).into(holder.imgFigura);break;
+                    case "sumo":  Glide.with(context).load(R.drawable.sumo).into(holder.imgFigura);break;
+                    case "tenis":  Glide.with(context).load(R.drawable.tenis).into(holder.imgFigura);break;
+                    case "villano":  Glide.with(context).load(R.drawable.villano).into(holder.imgFigura);break;
+                }
+                break;
 
 
 
