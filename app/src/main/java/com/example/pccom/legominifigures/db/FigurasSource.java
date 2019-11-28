@@ -185,6 +185,65 @@ public class FigurasSource {
             cargaInicial.add(new Figura(cont.getString(R.string.serie3_tenis),"tenis", 0,"Serie3", 2011,"accesorios"));
             cargaInicial.add(new Figura(cont.getString(R.string.serie3_villano),"villano", 0,"Serie3", 2011,"accesorios"));
 
+            //Serie4
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_artista),"artista", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_chicasurfer),"chicasurfer", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_cientifico),"cientifico", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_futbol),"futbol", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_nomo),"gnomo", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_hockey),"hockey", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_loboman),"hombrelobo", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_kimono),"kimono", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_mosnter),"monster", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_mosquetero),"mosquetero", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_nave),"nave", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_nuclear),"nuclear", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_patinadora),"patinadora", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_punk),"punk", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_skater),"skater", 0,"Serie4", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie4_vik),"viking", 0,"Serie4", 2011,"accesorios"));
+
+            //Serie5
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_boxeo),"boxeo", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_cavewoman),"cavergirl", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_cleopatra),"cleopatra", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_detec),"detec", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_enanomaligno),"enanomalo", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_fitness),"fitness", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_gangster),"gangster", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_gladiador),"gladiador", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_graduado),"graduado", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_guardiareal),"guardiareal", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_lagarto),"lagarto", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_lenador),"lenador", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_payasopeque),"payasopeque", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_pescadorhielo),"pescahielo", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_snowchico),"snowchico", 0,"Serie5", 2011,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie5_zoo),"zoo", 0,"Serie5", 2011,"accesorios"));
+
+
+            //Serie6
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_alienclass),"alienclasico", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_bandido),"bandido", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_carnicero),"carnicero", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_chicaskate),"chicaskate", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_cirujano),"cirujano", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_dormilon),"dormilon", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_genio),"genio", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_lepre),"lepre", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_libertad),"libertad", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_luchador),"luchador", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_mecanico),"mecanico", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_minotauro),"minotauro", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_romano),"romano", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_chicagalactica),"chicagalactica", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_flamenco),"flamenco", 0,"Serie6", 2012,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie6_robot),"robot", 0,"Serie6", 2012,"accesorios"));
+
+
+
+
+
 
 
 

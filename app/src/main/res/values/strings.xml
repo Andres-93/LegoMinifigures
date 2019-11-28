@@ -26,6 +26,12 @@
     <string name="serie_2_1_d_2_d">Serie 2 - %1$d / %2$d</string>
     <string name="serie_3_1_d_2_d">Serie 3 - %1$d / %2$d</string>
     <string name="serie_4_1_d_2_d">Serie 4 - %1$d / %2$d</string>
+    <string name="serie_5_1_d_2_d">Serie 5 - %1$d / %2$d</string>
+    <string name="serie_6_1_d_2_d">Serie 6 - %1$d / %2$d</string>
+    <string name="serie_7_1_d_2_d">Serie 7 - %1$d / %2$d</string>
+    <string name="serie_8_1_d_2_d">Serie 8 - %1$d / %2$d</string>
+    <string name="serie_9_1_d_2_d">Serie 9 - %1$d / %2$d</string>
+    <string name="serie_10_1_d_2_d">Serie 10 - %1$d / %2$d</string>
     <string name="serie2_espartano">Guerrero espartano</string>
     <string name="serie2_socorrista">Socorrista</string>
     <string name="serie2_bruja">Bruja</string>
@@ -58,5 +64,78 @@
     <string name="serie3_sumo">Luchador de sumo</string>
     <string name="serie3_tenis">Jugador de tenis</string>
     <string name="serie3_villano">Villano espacial</string>
+    <string name="serie4_artista">Artista</string>
+    <string name="serie4_chicasurfer">Chica Surfera</string>
+    <string name="serie4_cientifico">Cientifico</string>
+    <string name="serie4_futbol">Futbolista</string>
+    <string name="serie4_hockey">Jugador de Hockey</string>
+    <string name="serie4_loboman">Hombre lobo</string>
+    <string name="serie4_kimono">Chica con kimono</string>
+    <string name="serie4_mosnter">Monstruo</string>
+    <string name="serie4_mosquetero">Mosquetero</string>
+    <string name="serie4_nave">Marinero</string>
+    <string name="serie4_nuclear">Traje nuclear</string>
+    <string name="serie4_patinadora">Patinadora sobre hielo</string>
+    <string name="serie4_punk">Punk</string>
+    <string name="serie4_skater">Skater Urbano</string>
+    <string name="serie4_vik">Vikingo</string>
+    <string name="serie4_nomo">Gnomo</string>
+    <string name="serie5_boxeo">Boxeador</string>
+    <string name="serie5_cavewoman">Mujer cavernicola</string>
+    <string name="serie5_cleopatra">Cleopatra</string>
+    <string name="serie5_detec">Detective</string>
+    <string name="serie5_enanomaligno">Enano maligno</string>
+    <string name="serie5_fitness">Chica Fitness</string>
+    <string name="serie5_gangster">Gangster</string>
+    <string name="serie5_gladiador">Gladiador</string>
+    <string name="serie5_graduado">Graduado</string>
+    <string name="serie5_guardiareal">Guardia Real</string>
+    <string name="serie5_lagarto">Hombre Lagarto</string>
+    <string name="serie5_lenador">Leñador</string>
+    <string name="serie5_payasopeque">Payaso Pequeño</string>
+    <string name="serie5_pescadorhielo">Pescador en el hielo</string>
+    <string name="serie5_snowchico">Snowboarder</string>
+    <string name="serie5_zoo">Cuidadora del zoo</string>
+    <string name="serie6_alienclass">Alien Clasico</string>
+    <string name="serie6_bandido">Bandido</string>
+    <string name="serie6_carnicero">Carnicero</string>
+    <string name="serie6_chicagalactica">Chica Intergalactica</string>
+    <string name="serie6_chicaskate">Chica Skater</string>
+    <string name="serie6_cirujano">Cirujano</string>
+    <string name="serie6_dormilon">Dormilon</string>
+    <string name="serie6_flamenco">Bailaora Flamenca</string>
+    <string name="serie6_genio">Genio</string>
+    <string name="serie6_lepre">Leprechaun</string>
+    <string name="serie6_libertad">Estatua de la libertad</string>
+    <string name="serie6_luchador">Guerrero escoces</string>
+    <string name="serie6_mecanico">Mecanico</string>
+    <string name="serie6_minotauro">Minotauro</string>
+    <string name="serie6_robot">Robot</string>
+    <string name="serie6_romano">Guerrero Romano</string>
+    <string name="serie7_azteca">Guerrero Azteca</string>
+    <string name="serie7_caperucita">Caperucita</string>
+    <string name="serie7_chicavik">Chica Vikinga</string>
+    <string name="serie7_conejo">Chico Conejo</string>
+    <string name="serie7_gaitero">Gaitero</string>
+    <string name="serie7_guerreromalo">Guerrero Maligno</string>
+    <string name="serie7_hippie">Hippie</string>
+    <string name="serie7_hombrejungla">Hombre de la jungla</string>
+    <string name="serie7_motorista">Motorista</string>
+    <string name="serie7_nadadora">Nadadora</string>
+    <string name="serie7_novia">Novia</string>
+    <string name="serie7_patrulla">Patrulla Galactica</string>
+    <string name="serie7_programador">Programador</string>
+    <string name="serie7_reyoceano">Rey del oceano</string>
+    <string name="serie7_rockera">Rockera</string>
+    <string name="serie7_tenista">Tenista</string>
+
+
+
+
+
+
+
+
+
 
 </resources>

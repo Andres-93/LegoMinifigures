@@ -152,6 +152,69 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
                 }
                 break;
 
+            case "Serie4":
+                switch (imagen){
+                    case "artista":  Glide.with(context).load(R.drawable.artista).into(holder.imgFigura);break;
+                    case "chicasurfer":  Glide.with(context).load(R.drawable.chicasurfer).into(holder.imgFigura);break;
+                    case "cientifico":  Glide.with(context).load(R.drawable.cien).into(holder.imgFigura);break;
+                    case "futbol":  Glide.with(context).load(R.drawable.futbol).into(holder.imgFigura);break;
+                    case "gnomo":  Glide.with(context).load(R.drawable.gnomo).into(holder.imgFigura);break;
+                    case "hockey":  Glide.with(context).load(R.drawable.hockey).into(holder.imgFigura);break;
+                    case "hombrelobo":  Glide.with(context).load(R.drawable.hombrelobo).into(holder.imgFigura);break;
+                    case "kimono":  Glide.with(context).load(R.drawable.kimono).into(holder.imgFigura);break;
+                    case "monster":  Glide.with(context).load(R.drawable.mosnter).into(holder.imgFigura);break;
+                    case "mosquetero":  Glide.with(context).load(R.drawable.mosquetero).into(holder.imgFigura);break;
+                    case "nave":  Glide.with(context).load(R.drawable.nave).into(holder.imgFigura);break;
+                    case "nuclear":  Glide.with(context).load(R.drawable.nuclear).into(holder.imgFigura);break;
+                    case "patinadora":  Glide.with(context).load(R.drawable.patinadora).into(holder.imgFigura);break;
+                    case "punk":  Glide.with(context).load(R.drawable.punk).into(holder.imgFigura);break;
+                    case "skater":  Glide.with(context).load(R.drawable.skaterurbano).into(holder.imgFigura);break;
+                    case "viking":  Glide.with(context).load(R.drawable.vikingo).into(holder.imgFigura);break;
+                }
+                break;
+
+            case "Serie5":
+                switch (imagen){
+                    case "boxeo":  Glide.with(context).load(R.drawable.boxer).into(holder.imgFigura);break;
+                    case "cavergirl":  Glide.with(context).load(R.drawable.cave).into(holder.imgFigura);break;
+                    case "cleopatra":  Glide.with(context).load(R.drawable.cleopatra).into(holder.imgFigura);break;
+                    case "detec":  Glide.with(context).load(R.drawable.detective).into(holder.imgFigura);break;
+                    case "enanomalo":  Glide.with(context).load(R.drawable.enanomalo).into(holder.imgFigura);break;
+                    case "fitness":  Glide.with(context).load(R.drawable.fitness).into(holder.imgFigura);break;
+                    case "gangster":  Glide.with(context).load(R.drawable.gangster).into(holder.imgFigura);break;
+                    case "gladiador":  Glide.with(context).load(R.drawable.gladiador).into(holder.imgFigura);break;
+                    case "graduado":  Glide.with(context).load(R.drawable.graduado).into(holder.imgFigura);break;
+                    case "guardiareal":  Glide.with(context).load(R.drawable.guardiareal).into(holder.imgFigura);break;
+                    case "lagarto":  Glide.with(context).load(R.drawable.lagarto).into(holder.imgFigura);break;
+                    case "lenador":  Glide.with(context).load(R.drawable.lenadopr).into(holder.imgFigura);break;
+                    case "payasopeque":  Glide.with(context).load(R.drawable.payasopeque).into(holder.imgFigura);break;
+                    case "pescahielo":  Glide.with(context).load(R.drawable.pescahielo).into(holder.imgFigura);break;
+                    case "snowchico":  Glide.with(context).load(R.drawable.snowchico).into(holder.imgFigura);break;
+                    case "zoo":  Glide.with(context).load(R.drawable.zookeper).into(holder.imgFigura);break;
+                }
+                break;
+
+            case "Serie6":
+                switch (imagen){
+                    case "alienclasico":  Glide.with(context).load(R.drawable.alienclasico).into(holder.imgFigura);break;
+                    case "bandido":  Glide.with(context).load(R.drawable.bandido).into(holder.imgFigura);break;
+                    case "carnicero":  Glide.with(context).load(R.drawable.carnicero).into(holder.imgFigura);break;
+                    case "chicaskate":  Glide.with(context).load(R.drawable.chicaskate).into(holder.imgFigura);break;
+                    case "cirujano":  Glide.with(context).load(R.drawable.cirujano).into(holder.imgFigura);break;
+                    case "dormilon":  Glide.with(context).load(R.drawable.dormilon).into(holder.imgFigura);break;
+                    case "genio":  Glide.with(context).load(R.drawable.genio).into(holder.imgFigura);break;
+                    case "lepre":  Glide.with(context).load(R.drawable.leprechaun).into(holder.imgFigura);break;
+                    case "libertad":  Glide.with(context).load(R.drawable.libertad).into(holder.imgFigura);break;
+                    case "luchador":  Glide.with(context).load(R.drawable.luchadorescoces).into(holder.imgFigura);break;
+                    case "mecanico":  Glide.with(context).load(R.drawable.mecanico).into(holder.imgFigura);break;
+                    case "minotauro":  Glide.with(context).load(R.drawable.minotauro).into(holder.imgFigura);break;
+                    case "romano":  Glide.with(context).load(R.drawable.romano).into(holder.imgFigura);break;
+                    case "chicagalactica":  Glide.with(context).load(R.drawable.chicaintergalactica).into(holder.imgFigura);break;
+                    case "flamenco":  Glide.with(context).load(R.drawable.flamenco).into(holder.imgFigura);break;
+                    case "robot":  Glide.with(context).load(R.drawable.robotreloj).into(holder.imgFigura);break;
+                }
+                break;
+
 
 
         }
