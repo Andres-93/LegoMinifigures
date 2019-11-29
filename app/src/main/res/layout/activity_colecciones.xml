@@ -35,7 +35,7 @@
         android:layout_margin="@dimen/padding"
         android:drawableStart="@drawable/wink"
         android:drawableEnd="@drawable/gentleman"
-        android:fontFamily="@font/legohouse"
+        android:fontFamily="@font/legobrix"
         android:gravity="center"
         android:text="@string/completadas_1_d_2_d"
         android:textColor="@android:color/background_light"

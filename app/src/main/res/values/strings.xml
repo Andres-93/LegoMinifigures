@@ -2,6 +2,7 @@
     <string name="app_name">LegoMinifigures</string>
     <string name="lego_minifiguras">Lego Minifiguras</string>
     <string name="cat_logo">Catálogo</string>
+    <!-- LEGO SERIE 1-->
     <string name="serie1_cazador">Cazador de la tribu</string>
     <string name="serie1_animadora">Animadora</string>
     <string name="serie1_cavernicola">Hombre de las cavernas</string>
@@ -18,6 +19,7 @@
     <string name="serie1_espacio">Hombre del espacio</string>
     <string name="serie1_buceador">Buceador</string>
     <string name="serie1_cowboy">Cowboy</string>
+    <!-- OTROS-->
     <string name="adelante">ADELANTE!</string>
     <string name="gracias_por_usar_nuestra_app_con_esta_aplicacion_podras_tener_un_catalogo_de_todas_las_colecciones_de_mninifiguras_existentes">Gracias por usar nuestra app. Con esta aplicacion podras tener un catalogo de todas las colecciones de mninifiguras existentes.</string>
     <string name="colecciones">COLECCIONES</string>
@@ -32,6 +34,7 @@
     <string name="serie_8_1_d_2_d">Serie 8 - %1$d / %2$d</string>
     <string name="serie_9_1_d_2_d">Serie 9 - %1$d / %2$d</string>
     <string name="serie_10_1_d_2_d">Serie 10 - %1$d / %2$d</string>
+    <!-- LEGO SERIE 2-->
     <string name="serie2_espartano">Guerrero espartano</string>
     <string name="serie2_socorrista">Socorrista</string>
     <string name="serie2_bruja">Bruja</string>
@@ -48,6 +51,7 @@
     <string name="serie2_esquiador">Esquiador</string>
     <string name="serie2_disco">Chico disco</string>
     <string name="serie2_mex">Mexicano</string>
+    <!-- LEGO SERIE 3-->
     <string name="serie3_alien">Alient Espacial</string>
     <string name="serie3_baseball">Jugador de baseball</string>
     <string name="serie3_indio">Jefe de tribu</string>
@@ -64,6 +68,7 @@
     <string name="serie3_sumo">Luchador de sumo</string>
     <string name="serie3_tenis">Jugador de tenis</string>
     <string name="serie3_villano">Villano espacial</string>
+    <!-- LEGO SERIE 4-->
     <string name="serie4_artista">Artista</string>
     <string name="serie4_chicasurfer">Chica Surfera</string>
     <string name="serie4_cientifico">Cientifico</string>
@@ -80,6 +85,7 @@
     <string name="serie4_skater">Skater Urbano</string>
     <string name="serie4_vik">Vikingo</string>
     <string name="serie4_nomo">Gnomo</string>
+    <!-- LEGO SERIE 5-->
     <string name="serie5_boxeo">Boxeador</string>
     <string name="serie5_cavewoman">Mujer cavernicola</string>
     <string name="serie5_cleopatra">Cleopatra</string>
@@ -96,6 +102,7 @@
     <string name="serie5_pescadorhielo">Pescador en el hielo</string>
     <string name="serie5_snowchico">Snowboarder</string>
     <string name="serie5_zoo">Cuidadora del zoo</string>
+    <!-- LEGO SERIE 6-->
     <string name="serie6_alienclass">Alien Clasico</string>
     <string name="serie6_bandido">Bandido</string>
     <string name="serie6_carnicero">Carnicero</string>
@@ -112,6 +119,7 @@
     <string name="serie6_minotauro">Minotauro</string>
     <string name="serie6_robot">Robot</string>
     <string name="serie6_romano">Guerrero Romano</string>
+    <!-- LEGO SERIE 7-->
     <string name="serie7_azteca">Guerrero Azteca</string>
     <string name="serie7_caperucita">Caperucita</string>
     <string name="serie7_chicavik">Chica Vikinga</string>
@@ -128,6 +136,196 @@
     <string name="serie7_reyoceano">Rey del oceano</string>
     <string name="serie7_rockera">Rockera</string>
     <string name="serie7_tenista">Tenista</string>
+    <!-- LEGO SERIE 8-->
+    <string name="serie8_aleman">Aleman con Pretzel</string>
+    <string name="serie8_alienvillano">Alien Villano</string>
+    <string name="serie8_animadora">Animadora</string>
+    <string name="serie8_buzo">Buzo</string>
+    <string name="serie8_capipirata">Capitan Pirata</string>
+    <string name="serie8_conquistador">Conquistador</string>
+    <string name="serie8_cowgirl">Cowgirl</string>
+    <string name="serie8_dj">DJ</string>
+    <string name="serie8_hamlet">Hamlet</string>
+    <string name="serie8_hada">Hada</string>
+    <string name="serie8_negocio">Hombre de negocios</string>
+    <string name="serie8_americafutbol">Jugador Futbol Americano</string>
+    <string name="serie8_robotmalo">Robot maligno</string>
+    <string name="serie8_santa">Santa</string>
+    <string name="serie8_skiadora">Esquiadora</string>
+    <string name="serie8_vampiro">Vampiro Murcielago</string>
+    <!-- LEGO SERIE 9-->
+    <string name="serie9_pitonisa">Pitonisa</string>
+    <string name="serie9_alienveng">Alien Vengador</string>
+    <string name="serie9_buenoymalo">Hombre malo y bueno</string>
+    <string name="serie9_camarero">Camarero</string>
+    <string name="serie9_ciclope">Ciclope</string>
+    <string name="serie9_disfrazpollo">Hombre Pollo</string>
+    <string name="serie9_elfa">Elfa</string>
+    <string name="serie9_emperadorrom">Emperador Romano</string>
+    <string name="serie9_hollywood">Estrella de Hollywood</string>
+    <string name="serie9_font">Fontanero</string>
+    <string name="serie9_guerrero">Guerrero Heroico</string>
+    <string name="serie9_juez">Juez</string>
+    <string name="serie9_poli">Policia</string>
+    <string name="serie9_patin">Patinador Derby</string>
+    <string name="serie9_robot">Robot de combate</string>
+    <string name="serie9_sirena">Sirena</string>
+    <!-- LEGO SERIE 10-->
+    <string name="serie10_abu">Abuelo</string>
+    <string name="serie10_biblio">Bibliotecaria</string>
+    <string name="serie10_capibarco">Capitan de barco</string>
+    <string name="serie10_abeja">Chica abeja</string>
+    <string name="serie10_comandanterom">Comandante Romano</string>
+    <string name="serie10_guerreroindio">Guerrero Indio</string>
+    <string name="serie10_influn">Influencer</string>
+    <string name="serie10_baseball">Jugador de baseball</string>
+    <string name="serie10_mecani">Mecanico de moto</string>
+    <string name="serie10_medusa">Medusa</string>
+    <string name="serie10_gold">Mr.Gold</string>
+    <string name="serie10_mujguerrera">Mujer guerrera</string>
+    <string name="serie10_paintball">Jugador de Paintball</string>
+    <string name="serie10_paraca">Paracaidista</string>
+    <string name="serie10_payaso">Payaso Triste</string>
+    <string name="serie10_pintor">Pintor</string>
+    <string name="serie10_soldadore">Soldado revolucionario</string>
+    <!-- LEGO SERIE 11-->
+    <string name="serie11_abuela">Abuela</string>
+    <string name="serie11_barbaro">Barbaro</string>
+    <string name="serie11_camerara">Camarera Ochentera</string>
+    <string name="serie11_chiccientifica">Cientifica</string>
+    <string name="serie11_chicapretz">Chica con Pretzel</string>
+    <string name="serie11_robotgirl">Chica Robot</string>
+    <string name="serie11_elfo">Elfo navidad</string>
+    <string name="serie11_espanta">Espantapajaros</string>
+    <string name="serie11_jengibre">Galleta Jengibre</string>
+    <string name="serie11_guerreroisla">Guerrero Isleno</string>
+    <string name="serie11_mechmalo">Mech Maligno</string>
+    <string name="serie11_montanero">Montañero</string>
+    <string name="serie11_poli">Policia</string>
+    <string name="serie11_saxo">Saxofonista</string>
+    <string name="serie11_soldador">Soldador</string>
+    <string name="serie11_yeti">Yeti</string>
+    <!-- LEGO SERIE 12-->
+    <string name="serie12_bufon">Bufon</string>
+    <string name="serie12_chicagnio">Chica Genio</string>
+    <string name="serie12_diosa">Diosa Guerrera</string>
+    <string name="serie12_cerdo">Chico Cerdo</string>
+    <string name="serie12_rock">Estrella del Rock</string>
+    <string name="serie12_gotica">Gotica</string>
+    <string name="serie12_guardacostas">Socorrista</string>
+    <string name="serie12_hechizero">Hechizero</string>
+    <string name="serie12_huno">Guerrero Huno</string>
+    <string name="serie12_mineroespacial">Minero Espacial</string>
+    <string name="serie12_mosquetero">Mosquetero</string>
+    <string name="serie12_princess">Princesa de Cuento</string>
+    <string name="serie12_prospector">Buscador de oro</string>
+    <string name="serie12_rastreador">Rastreador de dinos</string>
+    <string name="serie12_pizza">Repartidor de Pizza</string>
+    <string name="serie12_videogamer">Gamer</string>
+    <!-- LEGO SERIE 13-->
+    <string name="serie13_carpin">Carpintero</string>
+    <string name="serie13_ciclop">Ciclope chica</string>
+    <string name="serie13_unicor">Chica Unicornio</string>
+    <string name="serie13_disco">Disco diva</string>
+    <string name="serie13_serpi">Encantador de serpientes</string>
+    <string name="serie13_esgrima">Esgrima</string>
+    <string name="serie13_goblin">Goblin</string>
+    <string name="serie13_egipcio">Guerrero Egipcio</string>
+    <string name="serie13_hechizer">Hechizero maligno</string>
+    <string name="serie13_hotdog">Chico Hotdog</string>
+    <string name="serie13_paleo">Paleontologa</string>
+    <string name="serie13_rey">Rey Clasico</string>
+    <string name="serie13_samurai">Chica Samurai</string>
+    <string name="serie13_sherif">Sheriff</string>
+    <string name="serie13_alien">Tropa Alienigena</string>
+    <string name="serie13_tropaespacial">Tropa Espacial</string>
+    <!-- LEGO SERIE 14-->
+    <string name="serie14_animzombie">Animadora Zombie</string>
+    <string name="serie14_banshee">Banshee</string>
+    <string name="serie14_bruja">Bruja</string>
+    <string name="serie14_tigre">Chica Tigre</string>
+    <string name="serie14_esqueleto">Chico Esqueleto</string>
+    <string name="serie14_cientif">Cientifico Monster</string>
+    <string name="serie14_espect">Espectro</string>
+    <string name="serie14_gargo">Gargola</string>
+    <string name="serie14_lobo">Hombre lobo</string>
+    <string name="serie14_ladyarana">Lady Araña</string>
+    <string name="serie14_bigfoot">BigFoot</string>
+    <string name="serie14_pirata">Pirata zombie</string>
+    <string name="serie14_planta">Planta Monster</string>
+    <string name="serie14_rock">Rockero Monster</string>
+    <string name="serie14_volador">Monstruo Volador</string>
+    <string name="serie14_zomb">Hombre Zombie</string>
+    <!-- LEGO EQUIPO OLIMPICO-->
+    <string name="serie_olymparquera">Arquera</string>
+    <string name="serie_olympbox">Boxeador</string>
+    <string name="serie_olympcorredor">Corredor de obstaculos</string>
+    <string name="serie_olympgim">Gimnasta</string>
+    <string name="serie_olympjinete">Jinete</string>
+    <string name="serie_olympjudo">Judo</string>
+    <string name="serie_olymppesas">Levantador de pesas</string>
+    <string name="serie_olympnadar">Nadador</string>
+    <string name="serie_olymptenis">Tenista</string>
+    <!-- LEGO Simpson 1-->
+    <string name="seriesimpson1_abuelo">Abuelo</string>
+    <string name="seriesimpson1_apu">Apu</string>
+    <string name="seriesimpson1_bart">Bart</string>
+    <string name="seriesimpson1_burns">Señor Burns</string>
+    <string name="seriesimpson1_homer">Homer</string>
+    <string name="seriesimpson1_krusty">Krusty</string>
+    <string name="seriesimpson1_lisa">Lisa</string>
+    <string name="seriesimpson1_maggie">Maggie</string>
+    <string name="seriesimpson1_marge">Marge</string>
+    <string name="seriesimpson1_milh">Milhouse</string>
+    <string name="seriesimpson1_nedo">Ned</string>
+    <string name="seriesimpson1_rasca">Rasca</string>
+    <string name="seriesimpson1_pica">Pica</string>
+    <string name="seriesimpson1_nelson">Nelson</string>
+    <string name="seriesimpson1_ralph">Ralph</string>
+    <string name="seriesimpson1_wiggum">Jefe Wiggum</string>
+    <!-- LEGO MOVIE 1-->
+    <string name="seriesmovie1_badcop">Poli malo Poli Bueno</string>
+    <string name="seriesmovie1_calamidad">Dron Calamidad</string>
+    <string name="seriesmovie1_emet">Emmet</string>
+    <string name="seriesmovie1_gail">Gail</string>
+    <string name="seriesmovie1_larry">Larry</string>
+    <string name="seriesmovie1_lincon">Ralph</string>
+    <string name="seriesmovie1_marsha">Abrham Lincoln</string>
+    <string name="seriesmovie1_oeste">Chica del oeste</string>
+    <string name="seriesmovie1_panda">Panda</string>
+    <string name="seriesmovie1_pantalon">Donde esta mi pantalon</string>
+    <string name="seriesmovie1_presi">Presidente</string>
+    <string name="seriesmovie1_scrachen">Mrs. Scratchen</string>
+    <string name="seriesmovie1_shakes">William Shakespeare</string>
+    <string name="seriesmovie1_taco">Chico taco</string>
+    <string name="seriesmovie1_velms">Velma</string>
+    <string name="seriesmovie1_wiley">Wiley</string>
+    <!-- LEGO Simpson 2-->
+    <string name="seriesimpson2_bartman">Bartman</string>
+    <string name="seriesimpson2_comic">Hombre de la tienda de comics</string>
+    <string name="seriesimpson2_doctor">Doctor</string>
+    <string name="seriesimpson2_edna">Edna</string>
+    <string name="seriesimpson2_fallout">Fision boy Milhouse</string>
+    <string name="seriesimpson2_frink">Doctor Frink</string>
+    <string name="seriesimpson2_hans">Hans Topo</string>
+    <string name="seriesimpson2_homer">Homer cita nocturna</string>
+    <string name="seriesimpson2_lisa">Lisa y bola de nieve</string>
+    <string name="seriesimpson2_maggie">Maggie y ayudante</string>
+    <string name="seriesimpson2_marge">Marge cita nocturna</string>
+    <string name="seriesimpson2_martin">Martin</string>
+    <string name="seriesimpson2_paty">Patty</string>
+    <string name="seriesimpson2_selma">Shelma</string>
+    <string name="seriesimpson2_smith">Smithers</string>
+    <string name="seriesimpson2_willy">Willy</string>
+
+
+
+
+
+
+
+
+
 
 
 
