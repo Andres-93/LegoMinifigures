@@ -38,6 +38,11 @@
     <string name="serie_12_1_d_2_d">Serie 12 - %1$d / %2$d</string>
     <string name="serie_13_1_d_2_d">Serie 13 - %1$d / %2$d</string>
     <string name="serie_14_1_d_2_d">Serie 14 - %1$d / %2$d</string>
+    <string name="serie_movie1_1_d_2_d">Serie Movie 1 - %1$d / %2$d</string>
+    <string name="serie_olimpico_1_d_2_d">Serie Olimpico - %1$d / %2$d</string>
+    <string name="serie_Simpsons1_1_d_2_d">Simpsons 1 - %1$d / %2$d</string>
+    <string name="serie_Simpsons2_1_d_2_d">Simpsons 2- %1$d / %2$d</string>
+
     <!-- LEGO SERIE 2-->
     <string name="serie2_espartano">Guerrero espartano</string>
     <string name="serie2_socorrista">Socorrista</string>

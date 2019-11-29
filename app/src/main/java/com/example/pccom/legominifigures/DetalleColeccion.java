@@ -82,6 +82,13 @@ public class DetalleColeccion extends AppCompatActivity {
             case "Serie9":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie9));break;
             case "Serie10":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie10));break;
             case "Serie11":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie11));break;
+            case "Serie12":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie12));break;
+            case "Serie13":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie13));break;
+            case "Serie14":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie14));break;
+            case "SerieMovie1":imgGeneral.setImageDrawable(getDrawable(R.drawable.logomovie1));break;
+            case "SerieEquipoOlimpico":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserieolymp));break;
+            case "SerieSimpsons1":imgGeneral.setImageDrawable(getDrawable(R.drawable.logosimpson1));break;
+            case "SerieSimpsons2":imgGeneral.setImageDrawable(getDrawable(R.drawable.logosimpsonserie2));break;
 
         }
 

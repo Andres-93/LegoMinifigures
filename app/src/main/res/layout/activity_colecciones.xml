@@ -263,6 +263,66 @@
                     android:text="@string/serie_14_1_d_2_d"
                     android:textSize="12sp" />
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSerieMovie1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_movie1_1_d_2_d"
+                    android:textSize="12sp" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnSerieOlimpico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_olimpico_1_d_2_d"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSerieSimpsons1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_Simpsons1_1_d_2_d"
+                    android:textSize="12sp" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnSerieSimpsons2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_Simpsons2_1_d_2_d"
+                    android:textSize="12sp" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

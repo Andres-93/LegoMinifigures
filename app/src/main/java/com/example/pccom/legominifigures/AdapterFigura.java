@@ -384,6 +384,82 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
                     case "zombienegocios":  Glide.with(context).load(R.drawable.zombienegocios).into(holder.imgFigura);break;
                 }
                 break;
+            case "SerieMovie1":
+                switch (imagen){
+                    case "badcop":  Glide.with(context).load(R.drawable.badcop).into(holder.imgFigura);break;
+                    case "calamidad":  Glide.with(context).load(R.drawable.calamidad).into(holder.imgFigura);break;
+                    case "emet":  Glide.with(context).load(R.drawable.emet).into(holder.imgFigura);break;
+                    case "gail":  Glide.with(context).load(R.drawable.gail).into(holder.imgFigura);break;
+                    case "larry":  Glide.with(context).load(R.drawable.larry).into(holder.imgFigura);break;
+                    case "lincin":  Glide.with(context).load(R.drawable.lincin).into(holder.imgFigura);break;
+                    case "marsha":  Glide.with(context).load(R.drawable.marsha).into(holder.imgFigura);break;
+                    case "oeste":  Glide.with(context).load(R.drawable.oeste).into(holder.imgFigura);break;
+                    case "panda":  Glide.with(context).load(R.drawable.panda).into(holder.imgFigura);break;
+                    case "pants":  Glide.with(context).load(R.drawable.pants).into(holder.imgFigura);break;
+                    case "presidente":  Glide.with(context).load(R.drawable.presidente).into(holder.imgFigura);break;
+                    case "scrachen":  Glide.with(context).load(R.drawable.scrachen).into(holder.imgFigura);break;
+                    case "shakespire":  Glide.with(context).load(R.drawable.shakespire).into(holder.imgFigura);break;
+                    case "taco":  Glide.with(context).load(R.drawable.taco).into(holder.imgFigura);break;
+                    case "velma":  Glide.with(context).load(R.drawable.velma).into(holder.imgFigura);break;
+                    case "wiley":  Glide.with(context).load(R.drawable.wiley).into(holder.imgFigura);break;
+                }
+                break;
+            case "SerieEquipoOlimpico":
+                switch (imagen){
+                    case "arquero":  Glide.with(context).load(R.drawable.arquero).into(holder.imgFigura);break;
+                    case "boxeador":  Glide.with(context).load(R.drawable.boxeador).into(holder.imgFigura);break;
+                    case "corredor":  Glide.with(context).load(R.drawable.corredor).into(holder.imgFigura);break;
+                    case "gimnasta":  Glide.with(context).load(R.drawable.gimnasta).into(holder.imgFigura);break;
+                    case "jinete":  Glide.with(context).load(R.drawable.jinete).into(holder.imgFigura);break;
+                    case "judo":  Glide.with(context).load(R.drawable.judo).into(holder.imgFigura);break;
+                    case "levantar":  Glide.with(context).load(R.drawable.levantar).into(holder.imgFigura);break;
+                    case "nadador":  Glide.with(context).load(R.drawable.nadador).into(holder.imgFigura);break;
+                    case "tenista":  Glide.with(context).load(R.drawable.tenista).into(holder.imgFigura);break;
+
+                }
+                break;
+            case "SerieSimpsons1":
+                switch (imagen){
+                    case "aby":  Glide.with(context).load(R.drawable.aby).into(holder.imgFigura);break;
+                    case "apu":  Glide.with(context).load(R.drawable.apu).into(holder.imgFigura);break;
+                    case "bart":  Glide.with(context).load(R.drawable.bart).into(holder.imgFigura);break;
+                    case "burns":  Glide.with(context).load(R.drawable.burns).into(holder.imgFigura);break;
+                    case "homer":  Glide.with(context).load(R.drawable.homer).into(holder.imgFigura);break;
+                    case "krusty":  Glide.with(context).load(R.drawable.krusty).into(holder.imgFigura);break;
+                    case "lisa":  Glide.with(context).load(R.drawable.lisa).into(holder.imgFigura);break;
+                    case "maggie":  Glide.with(context).load(R.drawable.maggie).into(holder.imgFigura);break;
+                    case "marge":  Glide.with(context).load(R.drawable.marge).into(holder.imgFigura);break;
+                    case "milhouse":  Glide.with(context).load(R.drawable.milhouse).into(holder.imgFigura);break;
+                    case "ned":  Glide.with(context).load(R.drawable.ned).into(holder.imgFigura);break;
+                    case "nelson":  Glide.with(context).load(R.drawable.nelson).into(holder.imgFigura);break;
+                    case "pica":  Glide.with(context).load(R.drawable.pica).into(holder.imgFigura);break;
+                    case "ralph":  Glide.with(context).load(R.drawable.ralph).into(holder.imgFigura);break;
+                    case "rasca":  Glide.with(context).load(R.drawable.rasca).into(holder.imgFigura);break;
+                    case "wiggum":  Glide.with(context).load(R.drawable.wiggum).into(holder.imgFigura);break;
+                }
+                break;
+            case "SerieSimpsons2":
+                switch (imagen){
+                    case "bartman":  Glide.with(context).load(R.drawable.bartman).into(holder.imgFigura);break;
+                    case "comic":  Glide.with(context).load(R.drawable.comic).into(holder.imgFigura);break;
+                    case "doctor":  Glide.with(context).load(R.drawable.doctor).into(holder.imgFigura);break;
+                    case "edna":  Glide.with(context).load(R.drawable.edna).into(holder.imgFigura);break;
+                    case "fallout":  Glide.with(context).load(R.drawable.fallout).into(holder.imgFigura);break;
+                    case "frink":  Glide.with(context).load(R.drawable.frink).into(holder.imgFigura);break;
+                    case "hans":  Glide.with(context).load(R.drawable.hans).into(holder.imgFigura);break;
+                    case "homercita":  Glide.with(context).load(R.drawable.homercita).into(holder.imgFigura);break;
+                    case "lisabola":  Glide.with(context).load(R.drawable.lisabola).into(holder.imgFigura);break;
+                    case "maggieperro":  Glide.with(context).load(R.drawable.maggieperro).into(holder.imgFigura);break;
+                    case "margecita":  Glide.with(context).load(R.drawable.margecita).into(holder.imgFigura);break;
+                    case "martin":  Glide.with(context).load(R.drawable.martin).into(holder.imgFigura);break;
+                    case "patty":  Glide.with(context).load(R.drawable.patty).into(holder.imgFigura);break;
+                    case "selma":  Glide.with(context).load(R.drawable.selma).into(holder.imgFigura);break;
+                    case "smith":  Glide.with(context).load(R.drawable.smith).into(holder.imgFigura);break;
+                    case "will":  Glide.with(context).load(R.drawable.will).into(holder.imgFigura);break;
+                }
+                break;
+
+
 
 
 
