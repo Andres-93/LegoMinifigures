@@ -21,6 +21,10 @@ public class ColeccionesActivity extends AppCompatActivity {
     public static final int SERIE4_TOTAL = 16;
     public static final int SERIE5_TOTAL = 16;
     public static final int SERIE6_TOTAL = 16;
+    public static final int SERIE7_TOTAL = 16;
+    public static final int SERIE8_TOTAL = 16;
+    public static final int SERIE9_TOTAL = 16;
+
     public static final int CANTIDAD_TOTAL = 30;
     TextView total;
     FigurasSource fs;
@@ -31,6 +35,9 @@ public class ColeccionesActivity extends AppCompatActivity {
     Button btnS4;
     Button btnS5;
     Button btnS6;
+    Button btnS7;
+    Button btnS8;
+    Button btnS9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +89,31 @@ public class ColeccionesActivity extends AppCompatActivity {
             }
         });
 
+        btnS7 = findViewById(R.id.btnSerie7);
+        btnS7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie7");
+            }
+        });
+
+        btnS8 = findViewById(R.id.btnSerie8);
+        btnS8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie8");
+            }
+        });
+
+        btnS9 = findViewById(R.id.btnSerie9);
+        btnS9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie9");
+            }
+        });
+
+
 
         listaCompleta = fs.consultarTodos();
 
@@ -111,6 +143,9 @@ public class ColeccionesActivity extends AppCompatActivity {
         int s4 = 0;
         int s5 = 0;
         int s6 = 0;
+        int s7 = 0;
+        int s8 = 0;
+        int s9 = 0;
         int scompletas = 0;
         for (int i = 0; i< listaCompleta.size();i++){
 
@@ -146,6 +181,21 @@ public class ColeccionesActivity extends AppCompatActivity {
                         s6++;
                     }
                     break;
+                case "Serie7":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s7++;
+                    }
+                    break;
+                case "Serie8":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s8++;
+                    }
+                    break;
+                case "Serie9":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s9++;
+                    }
+                    break;
 
 
             }
@@ -160,6 +210,9 @@ public class ColeccionesActivity extends AppCompatActivity {
         btnS4.setText(String.format(getString(R.string.serie_4_1_d_2_d),s4,SERIE4_TOTAL));
         btnS5.setText(String.format(getString(R.string.serie_5_1_d_2_d),s5,SERIE5_TOTAL));
         btnS6.setText(String.format(getString(R.string.serie_6_1_d_2_d),s6,SERIE6_TOTAL));
+        btnS7.setText(String.format(getString(R.string.serie_7_1_d_2_d),s7,SERIE7_TOTAL));
+        btnS8.setText(String.format(getString(R.string.serie_8_1_d_2_d),s8,SERIE8_TOTAL));
+        btnS9.setText(String.format(getString(R.string.serie_9_1_d_2_d),s9,SERIE9_TOTAL));
     }
 
 

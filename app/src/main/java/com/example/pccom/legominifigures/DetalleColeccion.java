@@ -77,6 +77,9 @@ public class DetalleColeccion extends AppCompatActivity {
             case "Serie4":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie4));break;
             case "Serie5":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie5));break;
             case "Serie6":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie6));break;
+            case "Serie7":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie7));break;
+            case "Serie8":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie8));break;
+            case "Serie9":imgGeneral.setImageDrawable(getDrawable(R.drawable.logoserie9));break;
 
         }
 

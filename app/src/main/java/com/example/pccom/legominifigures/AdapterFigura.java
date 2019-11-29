@@ -223,6 +223,66 @@ public class AdapterFigura extends RecyclerView.Adapter<AdapterFigura.HolderFigu
                     case "robot":  Glide.with(context).load(R.drawable.robotreloj).into(holder.imgFigura);break;
                 }
                 break;
+            case "Serie7":
+                switch (imagen){
+                    case "azteca":  Glide.with(context).load(R.drawable.azteca).into(holder.imgFigura);break;
+                    case "caperucita":  Glide.with(context).load(R.drawable.caperuticta).into(holder.imgFigura);break;
+                    case "chicaviking":  Glide.with(context).load(R.drawable.chicaviking).into(holder.imgFigura);break;
+                    case "conejo":  Glide.with(context).load(R.drawable.conejo).into(holder.imgFigura);break;
+                    case "escoces":  Glide.with(context).load(R.drawable.escoces).into(holder.imgFigura);break;
+                    case "guerreromalo":  Glide.with(context).load(R.drawable.guerreromalo).into(holder.imgFigura);break;
+                    case "hippie":  Glide.with(context).load(R.drawable.hippie).into(holder.imgFigura);break;
+                    case "hombrejungla":  Glide.with(context).load(R.drawable.hombrejungla).into(holder.imgFigura);break;
+                    case "motorista":  Glide.with(context).load(R.drawable.motorista).into(holder.imgFigura);break;
+                    case "nadadora":  Glide.with(context).load(R.drawable.nadadora).into(holder.imgFigura);break;
+                    case "novia":  Glide.with(context).load(R.drawable.novia).into(holder.imgFigura);break;
+                    case "patrulla":  Glide.with(context).load(R.drawable.patrulla).into(holder.imgFigura);break;
+                    case "programador":  Glide.with(context).load(R.drawable.programador).into(holder.imgFigura);break;
+                    case "reyoceano":  Glide.with(context).load(R.drawable.reyoceano).into(holder.imgFigura);break;
+                    case "rockera":  Glide.with(context).load(R.drawable.rockera).into(holder.imgFigura);break;
+                    case "tenistaace":  Glide.with(context).load(R.drawable.tenistaace).into(holder.imgFigura);break;
+                }
+                break;
+            case "Serie8":
+                switch (imagen){
+                    case "alemanpan":  Glide.with(context).load(R.drawable.alemanpan).into(holder.imgFigura);break;
+                    case "alienvillano":  Glide.with(context).load(R.drawable.alienvillano).into(holder.imgFigura);break;
+                    case "anim":  Glide.with(context).load(R.drawable.anim).into(holder.imgFigura);break;
+                    case "buzo":  Glide.with(context).load(R.drawable.buzo).into(holder.imgFigura);break;
+                    case "capitanpirata":  Glide.with(context).load(R.drawable.capitanpirata).into(holder.imgFigura);break;
+                    case "conquistador":  Glide.with(context).load(R.drawable.conquistador).into(holder.imgFigura);break;
+                    case "cowgirl":  Glide.with(context).load(R.drawable.cowgirl).into(holder.imgFigura);break;
+                    case "dj":  Glide.with(context).load(R.drawable.dj).into(holder.imgFigura);break;
+                    case "espian":  Glide.with(context).load(R.drawable.espian).into(holder.imgFigura);break;
+                    case "hada":  Glide.with(context).load(R.drawable.hada).into(holder.imgFigura);break;
+                    case "hombrenegocios":  Glide.with(context).load(R.drawable.hombrenegocios).into(holder.imgFigura);break;
+                    case "jugadoramericanofutbol":  Glide.with(context).load(R.drawable.jugadoramericanofutbol).into(holder.imgFigura);break;
+                    case "robotmalo":  Glide.with(context).load(R.drawable.robotmalo).into(holder.imgFigura);break;
+                    case "santa":  Glide.with(context).load(R.drawable.santa).into(holder.imgFigura);break;
+                    case "skiadora":  Glide.with(context).load(R.drawable.skiadora).into(holder.imgFigura);break;
+                    case "vampiromur":  Glide.with(context).load(R.drawable.vampiromur).into(holder.imgFigura);break;
+                }
+                break;
+            case "Serie9":
+                switch (imagen){
+                    case "adivina":  Glide.with(context).load(R.drawable.adivina).into(holder.imgFigura);break;
+                    case "alienvengador":  Glide.with(context).load(R.drawable.alienvengador).into(holder.imgFigura);break;
+                    case "buenoymalo":  Glide.with(context).load(R.drawable.buenoymalo).into(holder.imgFigura);break;
+                    case "camarero":  Glide.with(context).load(R.drawable.camarero).into(holder.imgFigura);break;
+                    case "ciclope":  Glide.with(context).load(R.drawable.ciclope).into(holder.imgFigura);break;
+                    case "disfrazpollo":  Glide.with(context).load(R.drawable.disfrazpollo).into(holder.imgFigura);break;
+                    case "elfa":  Glide.with(context).load(R.drawable.elfa).into(holder.imgFigura);break;
+                    case "emperadorromano":  Glide.with(context).load(R.drawable.emperadorromano).into(holder.imgFigura);break;
+                    case "estrellahollywood":  Glide.with(context).load(R.drawable.estrellahollywood).into(holder.imgFigura);break;
+                    case "fontaneto":  Glide.with(context).load(R.drawable.fontaneto).into(holder.imgFigura);break;
+                    case "guerreroheroico":  Glide.with(context).load(R.drawable.guerreroheroico).into(holder.imgFigura);break;
+                    case "juez":  Glide.with(context).load(R.drawable.juez).into(holder.imgFigura);break;
+                    case "patinadoraderby":  Glide.with(context).load(R.drawable.patinadoraderby).into(holder.imgFigura);break;
+                    case "police":  Glide.with(context).load(R.drawable.police).into(holder.imgFigura);break;
+                    case "robotcombate":  Glide.with(context).load(R.drawable.robotcombate).into(holder.imgFigura);break;
+                    case "sirena":  Glide.with(context).load(R.drawable.sirena).into(holder.imgFigura);break;
+                }
+                break;
 
 
 
