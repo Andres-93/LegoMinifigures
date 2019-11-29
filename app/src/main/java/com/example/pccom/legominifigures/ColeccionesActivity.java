@@ -24,6 +24,11 @@ public class ColeccionesActivity extends AppCompatActivity {
     public static final int SERIE7_TOTAL = 16;
     public static final int SERIE8_TOTAL = 16;
     public static final int SERIE9_TOTAL = 16;
+    public static final int SERIE10_TOTAL = 17;
+    public static final int SERIE11_TOTAL = 16;
+    public static final int SERIE12_TOTAL = 16;
+    public static final int SERIE13_TOTAL = 16;
+    public static final int SERIE14_TOTAL = 16;
 
     public static final int CANTIDAD_TOTAL = 30;
     TextView total;
@@ -38,6 +43,11 @@ public class ColeccionesActivity extends AppCompatActivity {
     Button btnS7;
     Button btnS8;
     Button btnS9;
+    Button btnS10;
+    Button btnS11;
+    Button btnS12;
+    Button btnS13;
+    Button btnS14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -113,6 +123,46 @@ public class ColeccionesActivity extends AppCompatActivity {
             }
         });
 
+        btnS10 = findViewById(R.id.btnSerie10);
+        btnS10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie10");
+            }
+        });
+
+        btnS11 = findViewById(R.id.btnSerie11);
+        btnS11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie11");
+            }
+        });
+
+        btnS12 = findViewById(R.id.btnSerie12);
+        btnS12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie12");
+            }
+        });
+
+        btnS13 = findViewById(R.id.btnSerie13);
+        btnS13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie13");
+            }
+        });
+
+        btnS14 = findViewById(R.id.btnSerie14);
+        btnS14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie14");
+            }
+        });
+
 
 
         listaCompleta = fs.consultarTodos();
@@ -146,6 +196,11 @@ public class ColeccionesActivity extends AppCompatActivity {
         int s7 = 0;
         int s8 = 0;
         int s9 = 0;
+        int s10 = 0;
+        int s11 = 0;
+        int s12 = 0;
+        int s13 = 0;
+        int s14 = 0;
         int scompletas = 0;
         for (int i = 0; i< listaCompleta.size();i++){
 
@@ -196,6 +251,36 @@ public class ColeccionesActivity extends AppCompatActivity {
                         s9++;
                     }
                     break;
+                case "Serie10":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s10++;
+                    }
+                    break;
+
+                case "Serie11":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s11++;
+                    }
+                    break;
+
+                case "Serie12":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s12++;
+                    }
+                    break;
+
+                case "Serie13":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s13++;
+                    }
+                    break;
+                case "Serie14":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s14++;
+                    }
+                    break;
+
+
 
 
             }
@@ -213,6 +298,21 @@ public class ColeccionesActivity extends AppCompatActivity {
         btnS7.setText(String.format(getString(R.string.serie_7_1_d_2_d),s7,SERIE7_TOTAL));
         btnS8.setText(String.format(getString(R.string.serie_8_1_d_2_d),s8,SERIE8_TOTAL));
         btnS9.setText(String.format(getString(R.string.serie_9_1_d_2_d),s9,SERIE9_TOTAL));
+        btnS10.setText(String.format(getString(R.string.serie_10_1_d_2_d),s10,SERIE10_TOTAL));
+        btnS11.setText(String.format(getString(R.string.serie_11_1_d_2_d),s11,SERIE11_TOTAL));
+        btnS12.setText(String.format(getString(R.string.serie_12_1_d_2_d),s12,SERIE12_TOTAL));
+        btnS13.setText(String.format(getString(R.string.serie_13_1_d_2_d),s13,SERIE13_TOTAL));
+        btnS14.setText(String.format(getString(R.string.serie_14_1_d_2_d),s14,SERIE14_TOTAL));
+    }
+
+    @Override public void onResume(){
+        super.onResume();
+
+        listaCompleta.clear();
+        listaCompleta = fs.consultarTodos();
+        contarColecciones();
+
+
     }
 
 

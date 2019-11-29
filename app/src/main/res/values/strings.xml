@@ -34,6 +34,10 @@
     <string name="serie_8_1_d_2_d">Serie 8 - %1$d / %2$d</string>
     <string name="serie_9_1_d_2_d">Serie 9 - %1$d / %2$d</string>
     <string name="serie_10_1_d_2_d">Serie 10 - %1$d / %2$d</string>
+    <string name="serie_11_1_d_2_d">Serie 11 - %1$d / %2$d</string>
+    <string name="serie_12_1_d_2_d">Serie 12 - %1$d / %2$d</string>
+    <string name="serie_13_1_d_2_d">Serie 13 - %1$d / %2$d</string>
+    <string name="serie_14_1_d_2_d">Serie 14 - %1$d / %2$d</string>
     <!-- LEGO SERIE 2-->
     <string name="serie2_espartano">Guerrero espartano</string>
     <string name="serie2_socorrista">Socorrista</string>

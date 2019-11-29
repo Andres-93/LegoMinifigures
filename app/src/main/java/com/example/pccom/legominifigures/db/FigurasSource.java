@@ -316,6 +316,105 @@ public class FigurasSource {
             cargaInicial.add(new Figura(cont.getString(R.string.serie9_sirena),"sirena", 0,"Serie9", 2013,"accesorios"));
 
 
+            //Serie10
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_abu),"abuelo", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_biblio),"bibliotecaria", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_capibarco),"capitanbarco", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_abeja),"chicaabeja", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_comandanterom),"comandanteromano", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_guerreroindio),"guerreroindio", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_influn),"influencer", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_baseball),"jugadorbaseball", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_mecani),"mecanicomoto", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_medusa),"medusa", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_gold),"mrgold", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_mujguerrera),"mujerguerrera", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_paintball),"paintball", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_paraca),"paracaidista", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_payaso),"payasotriste", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_pintor),"pintor", 0,"Serie10", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie10_soldadore),"soldadorevolucionario", 0,"Serie10", 2013,"accesorios"));
+
+
+            //Serie11
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_abuela),"abuela", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_barbaro),"barbaro", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_camerara),"camareraochentera", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_chiccientifica),"chicacientifica", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_chicapretz),"chicapretz", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_robotgirl),"chicarobot", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_elfo),"elfonavidad", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_espanta),"espanta", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_jengibre),"gengibre", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_guerreroisla),"guerreroisla", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_mechmalo),"mechmalo", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_montanero),"monstanero", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_poli),"poli", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_saxo),"saxo", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_soldador),"soldador", 0,"Serie11", 2013,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie11_yeti),"yeti", 0,"Serie11", 2013,"accesorios"));
+
+
+            //Serie12
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_bufon),"bufon", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_chicagnio),"chicagenio", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_cerdo),"chicocerdo", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_diosa),"diosaguerrera", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_rock),"estrellarock", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_gotica),"gotica", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_guardacostas),"guardacostas", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_hechizero),"hechizero", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_huno),"huno", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_mineroespacial),"mineroespacial", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_mosquetero),"mosqueteroespada", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_princess),"princesacuento", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_prospector),"prospector", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_rastreador),"rastreador", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_pizza),"repartidorpizza", 0,"Serie12", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie12_videogamer),"videogamer", 0,"Serie12", 2014,"accesorios"));
+
+            //Serie13
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_carpin),"carpintero", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_ciclop),"chicaciclope", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_unicor),"chicaunicornio", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_disco),"discodiva", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_serpi),"encantadorserpientes", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_esgrima),"esgrima", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_goblin),"goblin", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_egipcio),"guerreroegipcio", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_hechizer),"hechizeromaligno", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_hotdog),"hotdog", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_paleo),"paleontologa", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_rey),"reyclasico", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_samurai),"samuraichica", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_sherif),"sheriff", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_alien),"tropaalienigena", 0,"Serie13", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie13_tropaespacial),"tropaespacial", 0,"Serie13", 2014,"accesorios"));
+
+
+            //Serie14
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_animzombie),"animadorazombie", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_banshee),"banshee", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_bruja),"brujita", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_tigre),"chicatigre", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_esqueleto),"chicoesqueleto", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_cientif),"cientificomonstruo", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_espect),"espectro", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_gargo),"gargola", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_lobo),"hombrelobito", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_ladyarana),"ladyarana", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_bigfoot),"piesgrande", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_pirata),"piratazombie", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_planta),"plantamonster", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_rock),"rockeromonstruo", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_volador),"voladormonster", 0,"Serie14", 2014,"accesorios"));
+            cargaInicial.add(new Figura(cont.getString(R.string.serie14_zomb),"zombienegocios", 0,"Serie14", 2014,"accesorios"));
+
+
+
+
+
+
 
 
             SQLiteDatabase db = openReadable();

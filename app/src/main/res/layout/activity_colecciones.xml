@@ -203,6 +203,66 @@
                     android:text="@string/serie_10_1_d_2_d"
                     android:textSize="12sp" />
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSerie11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_11_1_d_2_d"
+                    android:textSize="12sp" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnSerie12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_12_1_d_2_d"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSerie13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_13_1_d_2_d"
+                    android:textSize="12sp" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnSerie14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/botoncircle"
+                    android:text="@string/serie_14_1_d_2_d"
+                    android:textSize="12sp" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
