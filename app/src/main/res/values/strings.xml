@@ -38,6 +38,11 @@
     <string name="serie_12_1_d_2_d">Serie 12 - %1$d / %2$d</string>
     <string name="serie_13_1_d_2_d">Serie 13 - %1$d / %2$d</string>
     <string name="serie_14_1_d_2_d">Serie 14 - %1$d / %2$d</string>
+    <string name="serie_15_1_d_2_d">Serie 15 - %1$d / %2$d</string>
+    <string name="serie_16_1_d_2_d">Serie 16 - %1$d / %2$d</string>
+    <string name="serie_17_1_d_2_d">Serie 17 - %1$d / %2$d</string>
+    <string name="serie_18_1_d_2_d">Serie 18 - %1$d / %2$d</string>
+    <string name="serie_19_1_d_2_d">Serie 19 - %1$d / %2$d</string>
     <string name="serie_movie1_1_d_2_d">Serie Movie 1 - %1$d / %2$d</string>
     <string name="serie_olimpico_1_d_2_d">Serie Olimpico - %1$d / %2$d</string>
     <string name="serie_Simpsons1_1_d_2_d">Simpsons 1 - %1$d / %2$d</string>
@@ -326,6 +331,96 @@
     <string name="seriesimpson2_selma">Shelma</string>
     <string name="seriesimpson2_smith">Smithers</string>
     <string name="seriesimpson2_willy">Willy</string>
+    <!-- LEGO SERIE 15-->
+    <string name="serie15_animal">Control de animales</string>
+    <string name="serie15_astro">Astronauta</string>
+    <string name="serie15_bailar">Bailarina</string>
+    <string name="serie15_conser">Conserje</string>
+    <string name="serie15_fauno">Fauno</string>
+    <string name="serie15_granja">Granjero</string>
+    <string name="serie15_guerrero">Guerrero Poderoso</string>
+    <string name="serie15_volador">Guerrero volador</string>
+    <string name="serie15_herido">Herido</string>
+    <string name="serie15_joya">Ladrona de joyas</string>
+    <string name="serie15_kendo">Luchador de Kendo</string>
+    <string name="serie15_mech">Laser Mech</string>
+    <string name="serie15_lucha">Luchador de lucha libre</string>
+    <string name="serie15_reina">Reina</string>
+    <string name="serie15_tibu">Tiburon</string>
+    <string name="serie15_tribal">Chica de tribu</string>
+    <!-- LEGO SERIE 16-->
+    <string name="serie16_pingu">Chico Pinguino</string>
+    <string name="serie16_cybor">Cyborg</string>
+    <string name="serie16_desert">Guerrero del desierto</string>
+    <string name="serie16_foto">Fotografo de Naturaleza</string>
+    <string name="serie16_gotic">Gotico</string>
+    <string name="serie16_kick">Kickboxer</string>
+    <string name="serie16_mariachi">Mariachi</string>
+    <string name="serie16_demon">Niño Demonio</string>
+    <string name="serie16_ninera">Niñera</string>
+    <string name="serie16_perro">Perro Ganador de concurso</string>
+    <string name="serie16_pirata">Pìrata</string>
+    <string name="serie16_platano">Platano</string>
+    <string name="serie16_reina">Reina del hielo</string>
+    <string name="serie16_rogue">Rogue</string>
+    <string name="serie16_sende">Senderista</string>
+    <string name="serie16_spy">Espia</string>
+    <!-- LEGO SERIE 17-->
+    <string name="serie17_asalt">Asaltador de caminos</string>
+    <string name="serie17_chef">Chef</string>
+    <string name="serie17_maiz">Chico Maiz</string>
+    <string name="serie17_elfa">Doncella elfa</string>
+    <string name="serie17_enano">Enano guerrero</string>
+    <string name="serie17_forzu">Forzudo</string>
+    <string name="serie17_frances">Frances</string>
+    <string name="serie17_gladiador">Gladiador romano</string>
+    <string name="serie17_heroe">Heroe espacial retro</string>
+    <string name="serie17_mari">Chica Mariposa</string>
+    <string name="serie17_rocket">Niño Cohete</string>
+    <string name="serie17_profe">Profesora de baile</string>
+    <string name="serie17_surf">Surfistra profesional</string>
+    <string name="serie17_hotdog">Vendedor de hotdogs</string>
+    <string name="serie17_vete">Veterinaria</string>
+    <string name="serie17_yuppie">Yuppie</string>
+    <!-- LEGO SERIE 18-->
+    <string name="serie18_cactus">Disfraz Cactus</string>
+    <string name="serie18_chicacump">Chica cumpleaños</string>
+    <string name="serie18_gatof">Disfraz gato</string>
+    <string name="serie18_legochica">Chica Lego</string>
+    <string name="serie18_chicocump">Chico cumpleaños</string>
+    <string name="serie18_legochico">Chico lego</string>
+    <string name="serie18_arana">Disfraz Araña</string>
+    <string name="serie18_car">Disfraz Coche</string>
+    <string name="serie18_cowboy">Disfraz Cowboy</string>
+    <string name="serie18_unic">Disfraz Unicornio</string>
+    <string name="serie18_dragon">Disfraz Dragon</string>
+    <string name="serie18_elefant">Disfraz elefante</string>
+    <string name="serie18_poli">Policia clasico</string>
+    <string name="serie18_flor">Disfraz flor</string>
+    <string name="serie18_payaso">Payaso de fiesta</string>
+    <string name="serie18_cohete">Disfraz Cohete</string>
+    <string name="serie18_tarta">Disfraz tarta</string>
+    <!-- LEGO SERIE 19-->
+    <string name="serie19_bici">Ciclista de montaña</string>
+    <string name="serie19_bomber">Bombera</string>
+    <string name="serie19_zorro">Chica zorro</string>
+    <string name="serie19_ducha">Chico en la ducha</string>
+    <string name="serie19_perro">Cuidadora de perros</string>
+    <string name="serie19_pizza">Pizza guy</string>
+    <string name="serie19_guerro">Guerrero</string>
+    <string name="serie19_jardin">Jardinera</string>
+    <string name="serie19_jungla">Explorador de la jungla</string>
+    <string name="serie19_momia">Reina momia</string>
+    <string name="serie19_oso">Oso arcoiris</string>
+    <string name="serie19_programadora">Programadora</string>
+    <string name="serie19_mono">Rey mono</string>
+    <string name="serie19_rugby">Jugador de Rugby</string>
+    <string name="serie19_soldado">Soldado galactico</string>
+    <string name="serie19_gamer">Gamer</string>
+
+
+
+
 
 
 

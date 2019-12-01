@@ -29,6 +29,11 @@ public class ColeccionesActivity extends AppCompatActivity {
     public static final int SERIE12_TOTAL = 16;
     public static final int SERIE13_TOTAL = 16;
     public static final int SERIE14_TOTAL = 16;
+    public static final int SERIE15_TOTAL = 16;
+    public static final int SERIE16_TOTAL = 16;
+    public static final int SERIE17_TOTAL = 16;
+    public static final int SERIE18_TOTAL = 17;
+    public static final int SERIE19_TOTAL = 16;
     public static final int SERIEMOVIE1_TOTAL = 16;
     public static final int SERIEOLIMPICO_TOTAL = 9;
     public static final int SERIESIMPSONS1_TOTAL = 16;
@@ -52,6 +57,12 @@ public class ColeccionesActivity extends AppCompatActivity {
     Button btnS12;
     Button btnS13;
     Button btnS14;
+    Button btnS15;
+    Button btnS19;
+    Button btnS16;
+    Button btnS17;
+    Button btnS18;
+
     Button btnSMovie1;
     Button btnSOlimpico;
     Button btnSSimpsons1;
@@ -171,6 +182,48 @@ public class ColeccionesActivity extends AppCompatActivity {
             }
         });
 
+        btnS15 = findViewById(R.id.btnSerie15);
+        btnS15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie15");
+            }
+        });
+
+        btnS16 = findViewById(R.id.btnSerie16);
+        btnS16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie16");
+            }
+        });
+
+        btnS17 = findViewById(R.id.btnSerie17);
+        btnS17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie17");
+            }
+        });
+
+        btnS18 = findViewById(R.id.btnSerie18);
+        btnS18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie18");
+            }
+        });
+
+        btnS19 = findViewById(R.id.btnSerie19);
+        btnS19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verColeccion("Serie19");
+            }
+        });
+
+
+
         btnSMovie1 = findViewById(R.id.btnSerieMovie1);
         btnSMovie1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -244,6 +297,12 @@ public class ColeccionesActivity extends AppCompatActivity {
         int s12 = 0;
         int s13 = 0;
         int s14 = 0;
+        int s15 = 0;
+        int s16 = 0;
+        int s17 = 0;
+        int s18 = 0;
+        int s19 = 0;
+
         int sM1 = 0;
         int sOli = 0;
         int sSimp1 = 0;
@@ -327,6 +386,31 @@ public class ColeccionesActivity extends AppCompatActivity {
                         s14++;
                     }
                     break;
+                case "Serie15":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s15++;
+                    }
+                    break;
+                case "Serie16":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s16++;
+                    }
+                    break;
+                case "Serie17":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s17++;
+                    }
+                    break;
+                case "Serie18":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s18++;
+                    }
+                    break;
+                case "Serie19":
+                    if(listaCompleta.get(i).getEnPosesion() == 1){
+                        s19++;
+                    }
+                    break;
                 case "SerieMovie1":
                     if(listaCompleta.get(i).getEnPosesion() == 1){
                         sM1++;
@@ -371,6 +455,11 @@ public class ColeccionesActivity extends AppCompatActivity {
         btnS12.setText(String.format(getString(R.string.serie_12_1_d_2_d),s12,SERIE12_TOTAL));
         btnS13.setText(String.format(getString(R.string.serie_13_1_d_2_d),s13,SERIE13_TOTAL));
         btnS14.setText(String.format(getString(R.string.serie_14_1_d_2_d),s14,SERIE14_TOTAL));
+        btnS15.setText(String.format(getString(R.string.serie_15_1_d_2_d),s15,SERIE15_TOTAL));
+        btnS16.setText(String.format(getString(R.string.serie_16_1_d_2_d),s16,SERIE16_TOTAL));
+        btnS17.setText(String.format(getString(R.string.serie_17_1_d_2_d),s17,SERIE17_TOTAL));
+        btnS18.setText(String.format(getString(R.string.serie_18_1_d_2_d),s18,SERIE18_TOTAL));
+        btnS19.setText(String.format(getString(R.string.serie_19_1_d_2_d),s19,SERIE19_TOTAL));
         btnSMovie1.setText(String.format(getString(R.string.serie_movie1_1_d_2_d),sM1,SERIEMOVIE1_TOTAL));
         btnSOlimpico.setText(String.format(getString(R.string.serie_olimpico_1_d_2_d),sOli,SERIEOLIMPICO_TOTAL));
         btnSSimpsons1.setText(String.format(getString(R.string.serie_Simpsons1_1_d_2_d),sSimp1,SERIESIMPSONS1_TOTAL));
@@ -431,6 +520,9 @@ public class ColeccionesActivity extends AppCompatActivity {
             scompletas++;
         }
         if(sSimp2 == 16){
+            scompletas++;
+        }
+        if(s15 == 16){
             scompletas++;
         }
 
